@@ -4,7 +4,13 @@
 % and uses it to analyze the results.
 
 % The required file is MoralExp3Data.xlsx. A custom automatically generated
-% MATLAB function is also required to properly import the data.
+% MATLAB function is also required to properly import the data,
+% importExp3Moral.m. Additionally, in order to perform the mediation 
+% analysis, installing these two toolboxes is required:
+
+% https://github.com/canlab/MediationToolbox
+% https://github.com/canlab/CanlabCore
+
 
 %% Loading Data and Creating Useful Variables
 
