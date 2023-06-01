@@ -3,7 +3,8 @@
 % This script reads the .csv file containing data from our participants
 % and uses it to analyze the results.
 
-% The required file is moral_Large_Experiment.csv.
+% The required file is moral_Large_Experiment.csv. It also requires the
+% additional MATLAB functions prop_test.m and sigstar.m
 
 %% Loading Data and Creating Useful Variables
 
@@ -380,7 +381,8 @@ sentsPval=PVals(3);
 lengthPval=PVals(4);
 
 % Plot the bar plot with the appropriate significance bars
-figure();bar([1,2,3],[lengthParam,sentsParam,consParam])
+figure();
+bar([1,2,3],[lengthParam,sentsParam,consParam])
 sigstar({[1,1], [2,2], [3,3]},[lengthPval,sentsPval,consPval])
 
 xticklabels({'Word Length','# Sentences','Consistency'})
