@@ -7,6 +7,8 @@
 % The required files are dataS1.csv, moralConsensus.csv, and 
 % features_moral_times.csv. For the latter, a custom automatically 
 % generated MATLAB function is also required to properly import the data.
+% This function is importfileMoralTimes.m. Additionally, the MATLAB
+% function hline.m is required.
 
 
 %% Loading the Required Files
