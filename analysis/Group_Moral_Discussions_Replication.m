@@ -8,7 +8,7 @@
 %moral debates. Current Biology, 29(23), 4124-4129.
 
 % The required files are dataS1.csv, dataS3.csv, and 
-% moralConsensus.csv.
+% moralConsensus.csv. The MATLAB function prop_test is also required.
 
 %% Loading the Required Files
 
